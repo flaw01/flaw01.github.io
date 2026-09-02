@@ -5,8 +5,24 @@ body {
     color: white;
 }
 
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: #0b2c39; 
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+nav p {
+    display: inline-block;  
+    padding-right: 30px;  
+}
+
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 0;
   margin-bottom: 15px;
@@ -18,3 +34,10 @@ img {
     height: 200px;
 }
 
+a, a:visited, a:active {
+    color: white
+}
+
+a:hover {
+    color: grey
+}
