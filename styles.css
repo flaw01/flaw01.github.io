@@ -12,14 +12,14 @@ section {
     margin-right: auto;
     max-width: 80%;
     padding: 10px;
-    
+
 }
 
 nav {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     background: #0a4157;
-    background: linear-gradient(90deg,rgba(10, 65, 87, 1) 35%, rgba(0, 18, 36, 1) 100%);
+    background: linear-gradient(90deg, rgba(10, 65, 87, 1) 35%, rgba(0, 18, 36, 1) 100%);
     border-radius: 15px;
     color: white;
     padding-top: 15px;
@@ -28,11 +28,13 @@ nav {
 }
 
 nav p {
-    display: inline-block;  
-    padding-right: 30px;  
+    display: inline-block;
+    padding-right: 30px;
 }
 
-nav a, a:visited, a:active {
+nav a,
+a:visited,
+a:active {
     color: white;
     text-decoration: none;
 }
@@ -47,12 +49,12 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 60px;
-  font-family: 'Times New Roman', Times, serif;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  text-align: center;
-  text-shadow: 2px 2px 5px black;
+    font-size: 60px;
+    font-family: "Asap Sharp", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
 }
 
 h2 {
