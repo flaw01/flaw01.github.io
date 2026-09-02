@@ -5,6 +5,10 @@ body {
     color: white;
 }
 
+section {
+    padding-left: 1%;
+    margin-right: 10%;
+}
 
 nav {
     font-family: 'Times New Roman', Times, serif;
@@ -21,11 +25,26 @@ nav p {
     padding-right: 30px;  
 }
 
+nav a, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: grey
+}
+
+/* highlights current page in nav bar */
+.current {
+    text-decoration: underline;
+}
+
 h1 {
   font-size: 60px;
   font-family: 'Times New Roman', Times, serif;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 15px;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -34,10 +53,11 @@ img {
     height: 200px;
 }
 
-a, a:visited, a:active {
-    color: white
+section a {
+    text-decoration: none;
+    font-style: italic;
 }
 
 a:hover {
-    color: grey
+    text-decoration: underline;
 }
