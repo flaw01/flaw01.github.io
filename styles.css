@@ -16,7 +16,7 @@ section {
 }
 
 nav {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Asap Sharp", sans-serif;
     font-size: 20px;
     background: #0a4157;
     background: linear-gradient(90deg, rgba(10, 65, 87, 1) 35%, rgba(0, 18, 36, 1) 100%);
@@ -30,6 +30,7 @@ nav {
 nav p {
     display: inline-block;
     padding-right: 30px;
+    font-family: "Asap Sharp", sans-serif;
 }
 
 nav a,
