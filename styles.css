@@ -76,28 +76,73 @@ a:hover {
     text-decoration: underline;
 }
 
-/* table related styling */
-
-table, th, td {
-  border: 1px solid rgba(0, 0, 0, 0.35);;
-    border-collapse: collapse;
- 
+a.post-card, a:hover.post-card {
+    color:white;
+    font-family: sans-serif;
+    font-style: normal;
+    display: inline-block;
+    background-color: rgba(1, 94, 115, 0.2);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    min-width: 500px;
+    max-width: 500px;
 }
 
-th, td {
-    background-color:rgba(0, 0, 0, 0);
+a:hover.post-card {
+    text-decoration: none;
+    background-color: rgba(0, 113, 138, 0.8);
+
+}
+
+a:visited.post-card {
+    color:lightgrey;
+}
+
+.post-card p {
+    font-style: italic;
+}
+
+/* table related styling */
+
+table,
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    ;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    background-color: rgba(0, 0, 0, 0);
     padding-top: 10px;
-    padding-bottom: 10  px;
+    padding-bottom: 10 px;
 }
 
 /* used when a course is complete */
-tr.complete td.text, tr.complete td.number {
+tr.complete td.text,
+tr.complete td.number {
     background-color: green
 }
 
 /* used when an entire quarter is complete */
 tbody.complete {
     background-color: green
+}
+
+tr.failed td.text,
+tr.failed td.number {
+    background-color: rgb(130, 2, 2)
+}
+
+tr.unfinished {
+    background-color: grey;
 }
 
 .text {
@@ -115,5 +160,5 @@ tbody.complete {
 .quarter {
     padding-right: 50px;
     padding-left: 50px;
-    text-align: center; 
+    text-align: center;
 }
