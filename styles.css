@@ -72,6 +72,12 @@ h2 {
     text-shadow: 1px 1px 2px black;
 }
 
+h4 {
+    font-style: italic;
+    color: lightgrey;
+    text-align: center;
+}
+
 img {
     width: 350px;
     height: 200px;
