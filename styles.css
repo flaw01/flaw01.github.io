@@ -75,3 +75,45 @@ section a {
 a:hover {
     text-decoration: underline;
 }
+
+/* table related styling */
+
+table, th, td {
+  border: 1px solid rgba(0, 0, 0, 0.35);;
+    border-collapse: collapse;
+ 
+}
+
+th, td {
+    background-color:rgba(0, 0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10  px;
+}
+
+/* used when a course is complete */
+tr.complete td.text, tr.complete td.number {
+    background-color: green
+}
+
+/* used when an entire quarter is complete */
+tbody.complete {
+    background-color: green
+}
+
+.text {
+    padding-right: 75px;
+    padding-left: 75px;
+    text-align: center;
+}
+
+.number {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.quarter {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center; 
+}
