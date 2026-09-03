@@ -117,6 +117,36 @@ a:visited.post-card {
     font-style: italic;
 }
 
+h2.ec-bar {
+    text-align: center;
+}
+
+.outerbar {
+    width: 99%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 5px;
+    background-color: grey;
+    border-radius:10px;
+}
+.innerbar {
+    text-align: center;
+    max-width: 98.85%;
+    padding: 10px;
+    background-color: #54b963;
+    animation: progressbar linear forwards;
+    animation-duration: 1s;
+    border-radius: 10px;
+    color: white;
+    font-family: cursive;
+}
+
+@keyframes progressbar {
+    from{width:0%}
+    to{width:8.33%;}
+}
+
 /* table related styling */
 
 table,
