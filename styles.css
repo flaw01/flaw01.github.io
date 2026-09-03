@@ -29,8 +29,18 @@ nav {
 
 nav p {
     display: inline-block;
-    padding-right: 30px;
+    padding-right: 2%;
     font-family: "Asap Sharp", sans-serif;
+}
+
+nav img {   
+    display: block;
+    max-height: 70px;
+    max-width: 70px;
+    padding-top: 50px;
+    margin-top: -125px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav a,
