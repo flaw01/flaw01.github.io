@@ -16,8 +16,10 @@ section {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
     font-family: "Asap Sharp", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     background: #0a4157;
     background: linear-gradient(90deg, rgba(10, 65, 87, 1) 35%, rgba(0, 18, 36, 1) 100%);
     border-radius: 15px;
@@ -34,13 +36,8 @@ nav p {
 }
 
 nav img {
-    display: block;
     max-height: 70px;
     max-width: 70px;
-    padding-top: 50px;
-    margin-top: -125px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav a,
@@ -51,12 +48,13 @@ nav a:active {
 }
 
 nav a:hover {
-    color: rgb(229, 229, 229)
+    scale: 110%;
 }
 
 /* highlights current page in nav bar */
 .current {
     text-decoration: underline;
+    
 }
 
 h1 {
@@ -238,6 +236,7 @@ tr.unfinished {
     font-size: 50px;
 }
 
-.current {
+.currentq {
     text-decoration: none;
+    background-color: lightgrey;
 }
