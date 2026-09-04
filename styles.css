@@ -81,6 +81,7 @@ h4 {
 img {
     width: 350px;
     height: 200px;
+    border-radius: 15px;
 }
 
 video {
