@@ -96,22 +96,24 @@ a:hover {
     text-decoration: underline;
 }
 
+posts {
+    display: flex;
+    flex-direction: column;
+}
+
 a.post-card,
 a:hover.post-card {
     color: white;
     font-family: sans-serif;
     font-style: normal;
-    display: inline-block;
     background-color: rgba(1, 94, 115, 0.2);
     transition-property: background-color;
     transition-duration: 0.5s;
     border-radius: 15px;
     padding-left: 10px;
-    padding-right: 500px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    min-width: 500px;
-    max-width: 500px;
+    width: 85%
 }
 
 a:hover.post-card {
