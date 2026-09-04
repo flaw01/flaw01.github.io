@@ -133,6 +133,7 @@ a:visited.post-card {
 
 h2.ec-bar {
     text-align: center;
+    margin-bottom: 3px;
 }
 
 .outerbar {
@@ -173,14 +174,17 @@ h2.ec-bar {
 
 /* table related styling */
 
-table,
+table {
+    margin: 0px auto;
+    border-spacing: 0px;
+}
+
 th,
 td {
-    border: 1px solid rgba(0, 0, 0, 0.35);
-    ;
-    border-collapse: collapse;
-
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
 }
+
 
 th,
 td {
@@ -198,6 +202,10 @@ tr.complete td.number {
 /* used when an entire quarter is complete */
 tbody.complete {
     background-color: green
+}
+
+tbody.current {
+    background-color: rgb(170, 170, 170)
 }
 
 tr.failed td.text,
@@ -225,4 +233,10 @@ tr.unfinished {
     padding-right: 50px;
     padding-left: 50px;
     text-align: center;
+    font-style: bold;
+    font-size: 50px;
+}
+
+.current {
+    text-decoration: none;
 }
