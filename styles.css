@@ -1,261 +1,288 @@
 body {
-    font-family: sans-serif;
-    background: #2A7B9B;
-    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 35%, rgba(47, 69, 82, 1) 100%);
-    color: white;
+  font-family: sans-serif;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 35%,
+    rgba(47, 69, 82, 1) 100%
+  );
+  color: white;
 }
 
 section {
-    background-color: rgba(6, 209, 255, 0.2);
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    padding: 10px;
-    animation: section-fade-in 1s;
-
+  background-color: rgba(6, 209, 255, 0.2);
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  padding: 10px;
+  animation: section-fade-in 1s;
 }
 
 @keyframes section-fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    font-family: "Asap Sharp", sans-serif;
-    font-size: 24px;
-    background: #0a4157;
-    background: linear-gradient(90deg, rgba(10, 65, 87, 1) 35%, rgba(0, 18, 36, 1) 100%);
-    border-radius: 15px;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Asap Sharp", sans-serif;
+  font-size: 24px;
+  background: #0a4157;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 65, 87, 1) 35%,
+    rgba(0, 18, 36, 1) 100%
+  );
+  border-radius: 15px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
 }
 
 nav p {
-    display: inline-block;
-    padding-right: 2%;
-    font-family: "Asap Sharp", sans-serif;
+  display: inline-block;
+  padding-right: 2%;
+  font-family: "Asap Sharp", sans-serif;
 }
 
 nav img {
-    max-height: 70px;
-    max-width: 70px;
+  max-height: 70px;
+  max-width: 70px;
 }
 
 nav a,
 nav a:visited,
 nav a:active {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 nav a:hover {
-    scale: 110%;
+  scale: 110%;
 }
 
 /* highlights current page in nav bar */
 .current {
-    text-decoration: underline;
-    
+  text-decoration: underline;
 }
 
 h1 {
-    font-size: 60px;
-    font-family: "Asap Sharp", sans-serif;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-    animation: h1-fade-in 1.5s, h1-slide-in 1s
+  font-size: 60px;
+  font-family: "Asap Sharp", sans-serif;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  animation:
+    h1-fade-in 1.5s,
+    h1-slide-in 1s;
 }
 
 @keyframes h1-fade-in {
-    from {opacity: 0.0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes h1-slide-in {
-    from {margin-top: -15px;}
-    to {margin-top: 10px;}
+  from {
+    margin-top: -15px;
+  }
+  to {
+    margin-top: 10px;
+  }
 }
 
 h2 {
-    text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px black;
 }
 
 h4 {
-    font-style: italic;
-    color: lightgrey;
-    text-align: center;
+  font-style: italic;
+  color: lightgrey;
+  text-align: center;
 }
 
 img {
-    width: 350px;
-    height: 200px;
-    border-radius: 15px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.me {
+  width: 25%;
+  height: 500px;
+}
+
+.cats {
+  width: 35%;
+  height: 500px;
 }
 
 video {
-    margin-top: -55px
+  margin-top: -55px;
 }
 
 section a {
-    text-decoration: none;
-    font-style: italic;
-    color: rgb(148, 227, 253)
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(148, 227, 253);
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 posts {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 a.post-card,
 a:hover.post-card {
-    color: white;
-    font-family: sans-serif;
-    font-style: normal;
-    background-color: rgba(1, 94, 115, 0.2);
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    border-radius: 15px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    width: 85%
+  color: white;
+  font-family: sans-serif;
+  font-style: normal;
+  background-color: rgba(1, 94, 115, 0.2);
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 85%;
 }
 
 a:hover.post-card {
-    text-decoration: none;
-    background-color: rgba(0, 113, 138, 0.8);
-
+  text-decoration: none;
+  background-color: rgba(0, 113, 138, 0.8);
 }
 
 a:visited.post-card {
-    color: lightgrey;
+  color: lightgrey;
 }
 
 .post-card p {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* ec bar on the dashboard */
 
 h2.ec-bar {
-    text-align: center;
-    margin-bottom: 3px;
+  text-align: center;
+  margin-bottom: 3px;
 }
 
 .outerbar {
-    position: relative;
-    width: 99%;
-    height: 20px;
-    padding: 3px 10px 3px 5px;
-    background-color: grey;
-    border-radius: 10px;
+  position: relative;
+  width: 99%;
+  height: 20px;
+  padding: 3px 10px 3px 5px;
+  background-color: grey;
+  border-radius: 10px;
 }
 
 .innerbar {
-    height: 100%;
-    background-color: #54b963;
-    animation: progressbar 1s linear forwards;
-    border-radius: 10px;
+  height: 100%;
+  background-color: #54b963;
+  animation: progressbar 1s linear forwards;
+  border-radius: 10px;
 }
 
 .ec-line {
-    position: absolute;
-    left: 75%;
-    top: 3px;
-    bottom: 3px;
-    width: 3px;
-    background-color: red;
-    border-radius: 10px;
+  position: absolute;
+  left: 75%;
+  top: 3px;
+  bottom: 3px;
+  width: 3px;
+  background-color: red;
+  border-radius: 10px;
 }
 
 @keyframes progressbar {
-    from {
-        width: 0%
-    }
+  from {
+    width: 0%;
+  }
 
-    to {
-        width: 8.33%;
-    }
+  to {
+    width: 8.33%;
+  }
 }
 
 /* table related styling */
 
 table {
-    margin: 0px auto;
-    border-spacing: 0px;
+  margin: 0px auto;
+  border-spacing: 0px;
 }
 
 th,
 td {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 3px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3px;
 }
-
 
 th,
 td {
-    background-color: rgba(0, 0, 0, 0);
-    padding-top: 10px;
-    padding-bottom: 10 px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10 px;
 }
 
 /* used when a course is complete */
 tr.complete td.text,
 tr.complete td.number {
-    background-color: green
+  background-color: green;
 }
 
 /* used when an entire quarter is complete */
 tbody.complete {
-    background-color: green
+  background-color: green;
 }
 
 tbody.current {
-    background-color: rgb(170, 170, 170)
+  background-color: rgb(170, 170, 170);
 }
 
 tr.failed td.text,
 tr.failed td.number {
-    background-color: rgb(130, 2, 2)
+  background-color: rgb(130, 2, 2);
 }
 
 tr.unfinished {
-    background-color: grey;
+  background-color: grey;
 }
 
 .text {
-    padding-right: 75px;
-    padding-left: 75px;
-    text-align: center;
+  padding-right: 75px;
+  padding-left: 75px;
+  text-align: center;
 }
 
 .number {
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
 }
 
 .quarter {
-    padding-right: 50px;
-    padding-left: 50px;
-    text-align: center;
-    font-style: bold;
-    font-size: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+  font-style: bold;
+  font-size: 50px;
 }
 
 .currentq {
-    text-decoration: none;
-    background-color: lightgrey;
+  text-decoration: none;
+  background-color: lightgrey;
 }
