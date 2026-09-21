@@ -32,20 +32,20 @@
                 <th>Grade</th>
             </tr>
             <tbody class="currentq" > <!-- class="complete" in tbody if quarter has been completed -->
-                <tr class="complete">
+                <tr>
                     <td rowspan="3" class="quarter">1</td>
                     <td class="text">Programme- & Career Orientation</td>
                     <td class="number">5</td>
                     <td class="text">Assignment</td>
-                    <td class="number">10</td>
+                    <td class="number">-</td>
                 </tr>
-                <tr class="failed">
+                <tr>
                     <td class="text">Programming Basics</td>
                     <td class="number">5</td>
                     <td class="text">Assignment</td>
-                    <td class="number">1.0</td>
+                    <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Computer Science Basics</td>
                     <td class="number">5</td>
                     <td class="text">Written Knowledge Test</td>
@@ -53,20 +53,20 @@
                 </tr>
             </tbody>
             <tbody>
-                <tr class="unfinished">
+                <tr>
                     <td rowspan="3" class="quarter">2</td>
                     <td class="text">Object Oriented Programming</td>
                     <td class="number">5</td>
                     <td class="text">Assignment</td>
                     <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Agile and Team Management</td>
                     <td class="number">5</td>
                     <td class="text">Assignment</td>
                     <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Project: Foundations</td>
                     <td class="number">5</td>
                     <td class="text">Portfolio</td>
@@ -74,20 +74,20 @@
                 </tr>
             </tbody>
             <tbody>
-                <tr class="unfinished">
+                <tr>
                     <td rowspan="3" class="quarter">3</td>
                     <td class="text">Software Engineering Basics</td>
                     <td class="number">5</td>
                     <td class="text">Assigment</td>
                     <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Foundations of Data</td>
                     <td class="number">5</td>
                     <td class="text">Assigment</td>
                     <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Requirements Modelling</td>
                     <td class="number">5</td>
                     <td class="text">Assigment</td>
@@ -95,20 +95,20 @@
                 </tr>
             </tbody>
             <tbody>
-                <tr class="unfinished">
+                <tr>
                     <td rowspan="3" class="quarter">4</td>
                     <td class="text">Web Application Development</td>
                     <td class="number">5</td>
                     <td class="text">Assigment</td>
                     <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Data Science Basics</td>
                     <td class="number">5</td>
                     <td class="text">Assigment</td>
                     <td class="number">-</td>
                 </tr>
-                <tr class="unfinished">
+                <tr>
                     <td class="text">Project: Applied Client Solutions</td>
                     <td class="number">5</td>
                     <td class="text">Portfolio</td>
@@ -117,11 +117,12 @@
             </tr>
         </table>
 
-        <!-- Manually update the ec-bar text here and the progress bar in css-->
-        <h2 class=ec-bar>5/60 EC</h2>
+        <h2 id="ec-bar" class=ec-bar>5/60 EC</h2>
         <div class="outerbar">
-            <div class="innerbar"></div>
+            <div id="innerbar" class="innerbar"></div>
             <div class="ec-line"></div>
         </div>
     </section>
+    
+    <script src="js/dashboard.js"></script>
 </body>

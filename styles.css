@@ -143,7 +143,6 @@ racing {
   padding-top: 20px;
 }
 
-
 racing p {
   text-align: center;
   max-width: 40%;
@@ -161,7 +160,7 @@ racing p {
 
   racing p {
     max-width: 100%;
-    padding: 0%
+    padding: 0%;
   }
 }
 
@@ -191,15 +190,13 @@ simracing p {
   simracing {
     flex-direction: column;
     align-items: center;
-    
   }
 
   simracing p {
     max-width: 100%;
-    padding: 0%
+    padding: 0%;
   }
 }
-
 
 .rig {
   width: auto;
@@ -243,12 +240,11 @@ aboutme p {
   aboutme {
     flex-direction: column;
     align-items: center;
-    
   }
 
   aboutme p {
     max-width: 100%;
-    padding: 0%
+    padding: 0%;
   }
 }
 
@@ -307,10 +303,13 @@ h2.ec-bar {
 }
 
 .outerbar {
+  display: flex;
+  justify-self: center;
   position: relative;
-  width: 99%;
+  width: 85%;
   height: 20px;
-  padding: 3px 10px 3px 5px;
+  padding: 3px 5px;
+  margin: auto;
   background-color: grey;
   border-radius: 10px;
 }
@@ -318,6 +317,7 @@ h2.ec-bar {
 .innerbar {
   height: 100%;
   background-color: #54b963;
+  width: var(--bar-width, 0%);
   animation: progressbar 1s linear forwards;
   border-radius: 10px;
 }
@@ -338,7 +338,7 @@ h2.ec-bar {
   }
 
   to {
-    width: 8.33%;
+    width: var(--bar-width, 0%);
   }
 }
 
