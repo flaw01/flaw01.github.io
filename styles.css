@@ -410,3 +410,86 @@ tr.unfinished {
   text-decoration: none;
   background-color: lightgrey;
 }
+
+/* Goals blog post */
+
+.swot-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.swot {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.swot h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.swot ul {
+    margin: 10px 0 0;
+    padding-left: 20px;
+}
+
+.strength {
+    background-color: #4CAF50;
+}
+
+.weakness {
+    background-color: #F44336; 
+}
+
+.opportunity {
+    background-color: #2196F3; 
+}
+
+.threat {
+    background-color: #FF9800;
+}
+
+.goals-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.goal {
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.goal.strength {
+    background: #4CAF50;
+    color: white;
+}
+
+.goal.weakness {
+    background: #FF7043;
+    color: white;
+}
+
+.goal h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: rgba(255,255,255,0.25);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.goal p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
