@@ -480,6 +480,12 @@ tr.unfinished {
     color: white;
 }
 
+/* this is used in the direction blog instead of the goals blog */
+.goal.direction {
+    background: #0084b5;
+    color: white;
+}
+
 .goal h2 {
     margin-top: 0;
     font-size: 1.4rem;
