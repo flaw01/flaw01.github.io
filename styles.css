@@ -343,6 +343,12 @@ a:visited.post-card {
   font-style: italic;
 }
 
+.post-card h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+
 /* ec bar on the dashboard */
 
 h2.ec-bar {
