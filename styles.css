@@ -46,7 +46,7 @@ footer {
 
 }
 
-links {
+.links {
   display: flex;
   flex-direction: column;
 }
@@ -183,7 +183,7 @@ figcaption {
   gap: 30px;
 }
 
-racing {
+.racing {
   display: flex;
   align-items: center;
   justify-content: left;
@@ -191,7 +191,7 @@ racing {
   padding-top: 20px;
 }
 
-racing p {
+.racing p {
   text-align: center;
   max-width: 40%;
   margin-top: auto;
@@ -201,12 +201,12 @@ racing p {
 }
 
 @media (max-width: 1350px) {
-  racing {
+  .racing {
     flex-direction: column;
     align-items: center;
   }
 
-  racing p {
+  .racing p {
     max-width: 100%;
     padding: 0%;
   }
@@ -218,14 +218,14 @@ racing p {
   height: auto;
 }
 
-simracing {
+.simracing {
   display: flex;
   align-items: center;
   justify-content: right;
   padding-top: 10px;
 }
 
-simracing p {
+.simracing p {
   text-align: center;
   max-width: 40%;
   margin-top: auto;
@@ -235,12 +235,12 @@ simracing p {
 }
 
 @media (max-width: 1000px) {
-  simracing {
+  .simracing {
     flex-direction: column;
     align-items: center;
   }
 
-  simracing p {
+  .simracing p {
     max-width: 100%;
     padding: 0%;
   }
@@ -262,19 +262,19 @@ simracing p {
   height: 500px;
 }
 
-catpointimg {
+.catpointimg {
   display: flex;
   align-items: center;
 }
 
-aboutme {
+.aboutme {
   display: flex;
   align-items: center;
   justify-content: right;
   padding-top: 10px;
 }
 
-aboutme p {
+.aboutme p {
   text-align: center;
   max-width: 60%;
   margin-top: auto;
@@ -285,12 +285,12 @@ aboutme p {
 }
 
 @media (max-width: 1400px) {
-  aboutme {
+  .aboutme {
     flex-direction: column;
     align-items: center;
   }
 
-  aboutme p {
+  .aboutme p {
     max-width: 100%;
     padding: 0%;
   }
@@ -310,7 +310,7 @@ a:hover {
   text-decoration: underline;
 }
 
-posts {
+.posts {
   display: flex;
   flex-direction: column;
 }
@@ -413,7 +413,7 @@ th,
 td {
   background-color: rgba(0, 0, 0, 0);
   padding-top: 10px;
-  padding-bottom: 10 px;
+  padding-bottom: 10px;
 }
 
 /* used when a course is complete */
@@ -456,7 +456,7 @@ tr.unfinished {
   padding-right: 50px;
   padding-left: 50px;
   text-align: center;
-  font-style: bold;
+  font-weight: bold;
   font-size: 50px;
 }
 
