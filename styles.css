@@ -177,6 +177,12 @@ figcaption {
   color: rgb(248, 248, 248);
 }
 
+.why-hz {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
 racing {
   display: flex;
   align-items: center;
