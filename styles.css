@@ -343,9 +343,17 @@ a:visited.post-card {
 }
 
 .post-card h3 {
-  color: white;
+  color: inherit;
   font-size: 20px;
   font-weight: normal;
+}
+
+a.post-card:link {
+  color: white;
+}
+
+a.post-card:visited {
+  color: lightgrey;
 }
 
 /* ec bar on the dashboard */
